@@ -20,8 +20,5 @@ let package = Package(
         .target(
             name: "VideoLab",
             dependencies: []),
-        .testTarget(
-            name: "VideoLab",
-            dependencies: ["VideoLab"]),
     ]
 )
